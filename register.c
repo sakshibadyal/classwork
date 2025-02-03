@@ -1,6 +1,14 @@
 #include<stdio.h>
 int main(){
-    register int var=22;
-    printf("Value of register variable: %d\n", var);
-    return 0;
+    int i=10,j=20;
+    scanf("%d %d",&i,&j);
+    if(i==10){
+        printf("he value of i evaluated in outer loop");
+    }
+    else if(i==20){
+     printf("he value of i evaluated in innerr switch");
+    }
+    else{
+        printf("the value is stoped:");
+    }
 }
