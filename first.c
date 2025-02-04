@@ -1246,7 +1246,7 @@ int main(){
 //         printf("Not a Leap Year");
 //     }
 
-
+/*IS ELSE IF*/
 // #include<stdio.h>
 // int main(){
 //     int i=10,j=20;
@@ -1263,15 +1263,11 @@ int main(){
 // }
 
 
-/*FOR LOOP*/
-#include <stdio.h>
-int main(){
-    int n;
-    printf("Enter a number");
-    scanf("%s",&n);
-    for(int i=1;i<=n;i++){
-    printf("Hello world");
-}
-    return 0;   
-}
+
+
+
+
+
+
+
 
