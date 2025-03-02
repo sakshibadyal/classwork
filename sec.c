@@ -441,20 +441,23 @@
 
 
 
+// #include<stdio.h>
+// #include<math.h>
+// void employee(char name[100],int id){
+//     return ;
+// }
+// int main(){
+//     char name[100];
+//     int id;
+//     printf("Enter a number:");
+//     scanf("%s",&name);
+//     printf("Enter a number:");
+//     scanf("%d",&id);
+//     employee(name,id);
+//     printf("Name: %s ID: %d",name,id);
+// }
+
 
 #include<stdio.h>
-#include<math.h>
-void employee(char name[100],int id){
-    return ;
-}
-int main(){
-    char name[100];
-    int id;
-    printf("Enter a number:");
-    scanf("%s",&name);
-    printf("Enter a number:");
-    scanf("%d",&id);
-    employee(name,id);
-    printf("Name: %s ID: %d",name,id);
 
-}
+
