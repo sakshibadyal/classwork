@@ -772,34 +772,264 @@
 // }
 
 
-#include <stdio.h>
-int main() {
-int n1, n2, i;
-    printf("Enter size of first array: ");
-    scanf("%d", &n1);
-    int arr1[n1];
-    printf("Enter %d elements for first array: ", n1);
-    for(i = 0; i < n1; i++) {
-        scanf("%d", &arr1[i]);
-    }
-    printf("Enter size of second array: ");
-    scanf("%d", &n2);
-    int arr2[n2];
-    printf("Enter %d elements for second array: ", n2);
-    for(i = 0; i < n2; i++) {
-        scanf("%d", &arr2[i]);
-    }
-    int arr3[n1 + n2];
-    for(i = 0; i < n1; i++) {
-        arr3[i] = arr1[i];
-    }
-    for(i = 0; i < n2; i++) {
-        arr3[n1 + i] = arr2[i];
-    }
-    printf("Combined array: ");
-    for(i = 0; i < n1 + n2; i++) {
-        printf("%d ", arr3[i]);
-    }
-    return 0;
+// #include <stdio.h>
+// int main() {
+// int n1, n2, i;
+//     printf("Enter size of first array: ");
+//     scanf("%d", &n1);
+//     int arr1[n1];
+//     printf("Enter %d elements for first array: ", n1);
+//     for(i = 0; i < n1; i++) {
+//         scanf("%d", &arr1[i]);
+//     }
+//     printf("Enter size of second array: ");
+//     scanf("%d", &n2);
+//     int arr2[n2];
+//     printf("Enter %d elements for second array: ", n2);
+//     for(i = 0; i < n2; i++) {
+//         scanf("%d", &arr2[i]);
+//     }
+//     int arr3[n1 + n2];
+//     for(i = 0; i < n1; i++) {
+//         arr3[i] = arr1[i];
+//     }
+//     for(i = 0; i < n2; i++) {
+//         arr3[n1 + i] = arr2[i];
+//     }
+//     printf("Combined array: ");
+//     for(i = 0; i < n1 + n2; i++) {
+//         printf("%d ", arr3[i]);
+//     }
+//     return 0;
+// }
 
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a number");
+//     scanf("%d",&n);
+//     int nst=n;
+//     int nsp=0;
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=nsp;j++){
+//             printf(" ");
+//         }
+//         for(int k=1;k<=nst;k++){
+//             printf("*");
+//         }
+//         nsp++;
+//         nst--;
+//         printf("\n");
+//     }
+
+// }
+
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=i;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=n;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+// scanf("%d",&n);
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n;j++){
+//         printf("%d",j);
+//     }
+//     printf("\n");
+// }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=n+1-i;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a numebr:");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=i;j++){
+//             printf("%d",j);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include<stdio.H>
+// int main(){
+//     int n;
+//     printf("Enter a number:");
+//     scanf("%d",&n);
+   
+//     for(int i=1;i<=n;i++){
+//         int a=1;
+//         for(int j=1;j<=i;j++){
+//             printf("%d",a);
+//             a=a+2;
+
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter a number:");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=n;j++){
+//             printf("%c",'A'+j-1);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter a number:");
+//     scanf("%d",&n);
+    
+//     for(int i=1;i<=n;i++){
+//         int a=1;
+//         for(int j=1;j<=n;j++){
+//             int d=a+64;
+//             char ch=(char)d;
+//             printf("%c",ch);
+//             a++;
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n;
+//     printf("Enter a number:");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=i;j++){
+//             printf("%c",'A'+j-1);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a numebr:");
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=n;j++){
+//          int a=n/2+1;
+//          if(j==a||i==a)
+//             printf("*");
+//         else
+//         printf(" ");
+//     }
+//     printf("\n");
+
+// }}
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=n;j++){
+//             if(i==j|| i+j==n+1)
+//             printf("*");
+//             else
+//             printf(" ");
+//         }
+//         printf("\n");
+        
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Ennter  a number:");
+ 
+//         printf("\n");
+//     }
+// }
+
+
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter a number:");
+    scanf("%d",&n);
+    int a=0;
+    for(int i=1;i<=n;i++){
+      if(i%2!=0)
+      a=1;
+      else a=0;
+      for(int j=1;j<=i;j++){
+        printf("%d",a);
+        if(a==0)
+        a=1;
+        else 
+        a=0;
+      }
+      printf("\n");
+    }
 }
