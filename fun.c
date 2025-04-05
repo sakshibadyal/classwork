@@ -234,3 +234,122 @@
 
 
 
+
+
+
+// #include<stdio.h>
+// int add(int n,int m){
+// return n+m;
+// }
+// int main(){
+//     int n;
+//     printf("enter a number:");
+//     scanf("%d",&n);
+//     int m;
+//     printf("enter a number:");
+//     scanf("%d",&m);
+//     int sum=add(n,m);
+//     printf("%d",sum);
+// }
+
+
+
+// #include<stdio.h>
+// int factorial(int x){
+//     int fact=1;
+//     for(int i=2;i<=x;i++){
+//         fact=fact*i;
+//     }
+//     return fact;
+// }
+
+// int combination(int n,int r){
+//     int ncr=factorial(n)/(factorial(r)*factorial(n-r));
+// return ncr;
+// }
+// int main(){
+//     int n;
+//     printf("enter a number:");
+//     scanf("%d",&n);
+//     int r;
+//     printf("enter a number:");
+//     scanf("%d",&r);
+//     int ncr=combination(n,r);
+//     printf("%d",ncr);
+// }
+
+
+
+// #include<stdio.h>
+// int factorial(int x){
+//     int fact=1;
+//     for(int i=2;i<=x;i++){
+//         fact=fact*i;
+//     }
+//     return fact;
+// }
+// int combination(int n,int r){
+//     int ncr=factorial(n)/(factorial(r)*factorial(n-r));
+//     return ncr;
+// }
+
+// int main(){
+//     int n;
+//     printf("entera number:");
+//     scanf("%d",&n);
+//     for(int i=0;i<=n;i++){
+//         for(int j=0;j<=i;j++){
+//             int icj=combination(i,j);
+//             printf("%d",icj);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int factorial(int x){
+//     int fact=1;
+//     for(int i=2;i<=x;i++){
+//         fact=fact*i;
+//     }
+//     return fact;
+// }
+// int combination(int n,int r){
+//     int ncr=factorial(n)/factorial(n-r);
+//     return ncr;
+// }
+
+// int main(){
+//     int n;
+//     printf("entera number:");
+//     scanf("%d",&n);
+ 
+//     for(int i=0;i<=n;i++){
+//         for(int j=0;j<=i;j++){
+//             int icj=combination(i,j);
+//             printf("%d",icj);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a number:");
+//     scanf("%d",&n);
+//     int m;
+//     printf("Enter a number:");
+//     scanf("%d",&m);
+//     int temp=n;
+//     n=m;
+//     m=temp;
+//     printf("%d n",n);
+//     printf("%d m",m);
+// }
+
+

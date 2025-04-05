@@ -122,19 +122,19 @@
 // }
 
 
-#include<stdio.h>
-int p(int a,int b){
-    if(b==0)return 1;
-    int p=a*power(a,b-1);
-    return p;
-}
-int main(){
-    int a;
-    printf("Enter a number:");
-    scanf("%d",&a);
-    int b;
-    printf("Enter power:");
-    scanf("%d",&b);
-    int p=power(a,b);
-    return 0;
-}
+// #include<stdio.h>
+// int p(int a,int b){
+//     if(b==0)return 1;
+//     int p=a*power(a,b-1);
+//     return p;
+// }
+// int main(){
+//     int a;
+//     printf("Enter a number:");
+//     scanf("%d",&a);
+//     int b;
+//     printf("Enter power:");
+//     scanf("%d",&b);
+//     int p=power(a,b);
+//     return 0;
+// }
