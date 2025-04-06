@@ -353,13 +353,15 @@
 // }
 
 
-#include<stdio.h>
-int main(){
-int x=2,y=2.0;
-if(x==y){
-printf("y equal");
+// #include<stdio.h>
+// int main(){
+// int x=2,y=2.0;
+// if(x==y){
+// printf("y equal");
 
-}
-else
-printf("y notnequal");
-}
+// }
+// else
+// printf("y notnequal");
+// }
+
+
