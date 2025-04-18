@@ -221,21 +221,136 @@
 // }
 
 
+// #include<stdio.h>
+// void swap(int *x,int *y){
+//     int temp=*x;
+//     *x=*y;
+//     *y=temp;
+//     return;
+// }
+// int main(){
+//     int a;
+//     printf("enter a num:");
+//     scanf("%d",a);
+//     int b;
+//     printf("Enter a num:");
+//     scanf("%d",&b);
+//     swap(&a,&b);
+//     printf("value of a is%d :",a);
+//     printf("value of b is%d :",b);
+// }
+
+
+
+// #include<stdio.h>
+// int max(int a,int b){
+//     if(a>b)
+//     return a;
+//     else 
+//     return b;
+// }
+// int main(){
+//     int n;
+//     printf("Enter a num:");
+//     scanf("%d",&n);
+//     int m;
+//     printf("Enter a num:");
+//     scanf("%d",&m);
+//     int x=max(n,m);
+//     printf("%d ",x);
+// }
+
+
+// #include<stdio.h>
+// void even(int n){
+//     if(n==0){
+//         printf("ZERO");
+//     }else{
+//     if(n%2==0)
+//     printf("Even");
+//     else
+//     printf("odd");
+// }
+// }
+// int main(){
+//     int n=0;
+//     even(n);
+// }
+
+
+// #include<stdio.h>
+// int factorial(int n){
+//     if(n==0||n==1)
+//     return 1;
+//     return n*factorial(n-1);
+// }
+// int main(){
+//     int n=5;
+//     int fact=factorial(n);
+//     printf("%d",fact);
+// }
+
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     int n=2,p=5;
+//    int x=pow(n,p);
+//     printf("%d ",x);
+// }
+
+// #include <stdio.h>
+
+// int main() {
+//     int num = 10;         // Declare an integer variable
+//     int *ptr = &num;      // Declare a pointer variable that stores the address of 'num'
+
+//     printf("Value of num: %d\n", num);       // Output: 10
+//     printf("Address of num: %p\n", &num);    // Output: Address of num
+//     printf("Value of ptr: %p\n", ptr);       // Output: Address of num (same as above)
+//     printf("Value pointed by ptr: %d\n", *ptr);  // Output: 10 (dereferencing pointer)
+
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("Enter a numebr:");
+//     scanf("%d",&n);
+//     int a=n/2;
+//     int b=1;
+//     int ml=n/2+1;
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=a;j++){
+//             printf(" ");   
+//         }
+//         for(int k=1;k<=b;k++){
+//             printf("*");
+//         }
+//         if(i<ml){
+//             a--;
+//            b+=2;
+//         }
+//         else{
+//             a++;
+//             b-=2;
+     
+//         }
+//         printf("\n");
+//     }
+// }
+
+
 #include<stdio.h>
-void swap(int *x,int *y){
-    int temp=*x;
-    *x=*y;
-    *y=temp;
-    return;
-}
 int main(){
-    int a;
-    printf("enter a num:");
-    scanf("%d",a);
-    int b;
-    printf("Enter a num:");
-    scanf("%d",&b);
-    swap(&a,&b);
-    printf("value of a is%d :",a);
-    printf("value of b is%d :",b);
+    int n;
+    printf("Enter  a num:");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n+1-i;j++){
+            printf("%d",j);
+        }
+       printf("\n")
+    }
 }
